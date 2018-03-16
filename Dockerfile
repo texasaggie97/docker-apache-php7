@@ -1,5 +1,8 @@
 FROM ubuntu:17.10
-MAINTAINER Alexander Schenkel <alex@alexi.ch>
+
+# Originally from https://github.com/bylexus/docker-apache-php7
+# MAINTAINER Alexander Schenkel <alex@alexi.ch>
+MAINTAINER Mark Silva <github@markesilva.com>
 
 VOLUME ["/var/www"]
 
